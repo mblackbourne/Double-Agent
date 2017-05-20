@@ -45,10 +45,12 @@ Once the attacker decides to inject a DLL into a process, they are forcefully bo
    
    e.g.    DoubleAgent.exe install cmd.exe
    ```
-   Note that the 32bit installer (DoubleAgent_x86.exe) can be used both on Windows x86 and Windows x64.
-   But the 64bit installer (DoubleAgent_x64.exe) can be used only on Windows x64.
+   Note that the 32bit installer (Double-Agent_x86.exe) can be used both on Windows x86 and Windows x64.
+   But the 64bit installer (Double-Agent_x64.exe) can be used only on Windows x64.
 5. The next time the target process loads [DoubleAgentDll.dll](https://github.com/mblackbourne/Double-Agent/tree/master/DoubleAgentDll) would be injected into it.
 
 ## Authors
 Blackbourne Worldwide
+
+
 Cybellum Technologies LTD (http://cybellum.com/)
