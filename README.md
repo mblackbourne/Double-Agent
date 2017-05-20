@@ -1,4 +1,5 @@
 # DoubleAgent
+This is a proof of concept
 
 DoubleAgent is a new Zero-Day technique for injecting code and maintaining persistence on a machine (i.e. auto-run).
 
@@ -24,7 +25,6 @@ Once the attacker decides to inject a DLL into a process, they are forcefully bo
 ## Attack Vectors
 
 * Attacking Antivirus & Next Generation Antivirus – Taking full control of any antivirus by injecting code into it while bypassing all of its self-protection mechanism. The attack has been verified and works on all the major antiviruses including but not limited to: Avast, AVG, Avira, Bitdefender, Comodo, ESET, F-Secure, Kaspersky, Malwarebytes, McAfee, Norton, Panda, Quick Heal and Trend Micro.
- For more details, checkout our [Taking Full Control Over Your Antivirus](http://cybellum.com/doubleagent-taking-full-control-antivirus/) article.
  
 * Installing Persistent Malware – Installing malware that can “survive” reboots and are automatically executed once the operating system boots.
 
@@ -35,7 +35,7 @@ Once the attacker decides to inject a DLL into a process, they are forcefully bo
 * Attacking Other Users/Sessions – Injecting code to processes of other users/sessions (SYSTEM/Admin/etc.).
 
 ## Installation
-1. Clone/Download the DoubleAgent source code.
+1. Clone/Download the Double-Agent source code.
 2. Build the [main solution](https://github.com/mblackbourne/Double-Agent) twice, once in x86 and once in x64.
    This step is crucial as it creates both x86 and x64 versions of DoubleAgentDll.dll which is required in order to perform a successful installation.
 3. Copy the entire bin folder to the target machine.
