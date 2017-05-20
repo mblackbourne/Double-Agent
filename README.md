@@ -1,4 +1,5 @@
 # DoubleAgent
+
 DoubleAgent is a new Zero-Day technique for injecting code and maintaining persistence on a machine (i.e. auto-run).
 
 DoubleAgent can exploit:
@@ -33,12 +34,9 @@ Once the attacker decides to inject a DLL into a process, they are forcefully bo
 
 * Attacking Other Users/Sessions – Injecting code to processes of other users/sessions (SYSTEM/Admin/etc.).
 
-## Technical Deep Dive
-For more details, checkout our [technical](http://cybellum.com/doubleagentzero-day-code-injection-and-persistence-technique/) article.
-
 ## Installation
 1. Clone/Download the DoubleAgent source code.
-2. Build the [main solution](https://github.com/Cybellum/DoubleAgent) twice, once in x86 and once in x64.
+2. Build the [main solution](https://github.com/mblackbourne/Double-Agent) twice, once in x86 and once in x64.
    This step is crucial as it creates both x86 and x64 versions of DoubleAgentDll.dll which is required in order to perform a successful installation.
 3. Copy the entire bin folder to the target machine.
 4. Execute the installer:
@@ -49,7 +47,8 @@ For more details, checkout our [technical](http://cybellum.com/doubleagentzero-d
    ```
    Note that the 32bit installer (DoubleAgent_x86.exe) can be used both on Windows x86 and Windows x64.
    But the 64bit installer (DoubleAgent_x64.exe) can be used only on Windows x64.
-5. The next time the target process loads [DoubleAgentDll.dll](https://github.com/Cybellum/DoubleAgent/tree/master/DoubleAgentDll) would be injected into it.
+5. The next time the target process loads [DoubleAgentDll.dll](https://github.com/mblackbourne/Double-Agent/tree/master/DoubleAgentDll) would be injected into it.
 
 ## Authors
+Blackbourne Worldwide
 Cybellum Technologies LTD (http://cybellum.com/)
