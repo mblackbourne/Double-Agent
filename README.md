@@ -50,7 +50,7 @@ Once the attacker decides to inject a DLL into a process, they are forcefully bo
 5. The next time the target process loads [DoubleAgentDll.dll](https://github.com/mblackbourne/Double-Agent/tree/master/DoubleAgentDll) would be injected into it.
 
 ## Authors
-Blackbourne Worldwide
+Blackbourne Worldwide (http://blackbourneco.com/)
 
 
-Cybellum Technologies LTD (http://cybellum.com/)
+Cybellum Technologies 
